@@ -1,13 +1,4 @@
-# Usage of this package (REMOVE THIS SECTION BEFORE RELEASE)
-- Copy this app before working on it.
-- Edit the `conf/nginx.conf` file to match app prerequisites.
-- Edit the `manifest.json` with app specific info.
-- Edit the `install`, `upgrade`, `remove`, `backup`, and `restore` scripts.
-  - Using the [script helpers documentation.](https://yunohost.org/#/packaging_apps_helpers)
-- Add a `LICENSE` file for the package.
-- Edit `README.md` and `README_fr.md`.
-
-# Example app for YunoHost
+# KodExplorer for YunoHost
 
 [![Integration level](https://dash.yunohost.org/integration/kodexplorer.svg)](https://dash.yunohost.org/appci/app/kodexplorer) ![](https://ci-apps.yunohost.org/ci/badges/kodexplorer.status.svg) ![](https://ci-apps.yunohost.org/ci/badges/kodexplorer.maintain.svg)  
 [![Install Kodexplorer with YunoHost](https://install-app.yunohost.org/install-with-yunohost.png)](https://install-app.yunohost.org/?app=kodexplorer)
@@ -63,7 +54,7 @@ Please send your pull request to the [testing branch](https://github.com/YunoHos
 
 To try the testing branch, please proceed like that.
 ```
-sudo yunohost app install https://github.com/YunoHost-Apps/REPLACEBYYOURAPP_ynh/tree/testing --debug
+sudo yunohost app install https://github.com/YunoHost-Apps/kodexplorer_ynh/tree/testing --debug
 or
-sudo yunohost app upgrade REPLACEBYYOURAPP -u https://github.com/YunoHost-Apps/REPLACEBYYOURAPP_ynh/tree/testing --debug
+sudo yunohost app upgrade kodexplorer -u https://github.com/YunoHost-Apps/kodexplorer_ynh/tree/testing --debug
 ```
